@@ -6,26 +6,34 @@
 
 To run the R notebook (ge-analysis.Rmd), clone the repository using
 
-`git clone https://github.com/emmajslz/ge-analysis-bronchial-tissue.git`
+```
+git clone https://github.com/emmajslz/ge-analysis-bronchial-tissue.git
+```
 
 To ensure all the necessary packages are available, use `renv` to create a new R environment with all the required packages, as listed in the file `renv.lock`
 
 1. Install renv (if it's not already installed). Run the following on the R console.
 
-`install.packages("renv")`
+```
+install.packages("renv")
+```
 
 2. Activate the `renv` environment:
 
 Navigate to the root directory of your cloned repository and activate the `renv` environment using:
 
-`renv::activate()`
+```
+renv::activate()
+```
 
 3. Restore the environment
 
 After activating renv, restore the project's R environment using the renv.lock file.
 This will install all the necessary packages specified in the lock file.
 
-`renv::restore()`
+```
+renv::restore()
+```
 
 Once the environment is restored, you can start using the project.
 All package installations and updates will be managed by renv within this isolated environment.
