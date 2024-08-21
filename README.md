@@ -64,7 +64,7 @@ The project has the following different parts:
 4. Functional Analysis
 5. Discussion
 6. Conclusions
-7. Session Information
+7. Session Information<br>
 References
 
 ### Conclusions
